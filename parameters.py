@@ -28,10 +28,10 @@ class Parameters:
         relaxation=True,
         shooting=False,
         goal_functional_fluid=True,
-        goal_functional_solid=True,
-        compute_primal=False,
+        goal_functional_solid=False,
+        compute_primal=True,
         compute_adjoint=False,
-        refinement_levels=4,
+        refinement_levels=0,
     ):
 
         # Define problem parameters
